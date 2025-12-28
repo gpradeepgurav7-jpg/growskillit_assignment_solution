@@ -1,4 +1,4 @@
-package assignment;
+package assignment_one;
 import java.util.Scanner;
 
 public class loop_asignment3_evenodd {

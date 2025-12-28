@@ -1,4 +1,4 @@
-package assignment;
+package assignment_one;
 
 public class data_type_assignment_2 {
 

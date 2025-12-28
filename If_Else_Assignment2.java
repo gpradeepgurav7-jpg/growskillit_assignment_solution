@@ -1,4 +1,4 @@
-package assignment;
+package assignment_one;
 
 public class If_Else_Assignment2 {
 

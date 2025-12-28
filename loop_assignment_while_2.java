@@ -1,4 +1,4 @@
-package assignment;
+package assignment_one;
 
 public class loop_assignment_while_2 {
 
