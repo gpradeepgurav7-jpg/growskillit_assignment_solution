@@ -1,36 +1,20 @@
 package assignment_one;
-import java.util.Scanner;
-
 public class loop_asignment3_evenodd {
 
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
-		System.out.print("Enter a number:");
-		int num = in.nextInt();
-		in.close();
-		
 		int evencount=0;
 		int oddcount=0;
-		int tempNum =num;
-		
-		while(tempNum > 0) {
-			int digit =tempNum %10;
-			if (digit %2 ==0) {
+		int num =12300005;
+		while(num > 0) {
+			int lastdigit =num %10;
+			if (lastdigit %2 ==0) 
 				evencount++;
-		
-		}  else {
+		  else 
 				oddcount++;
-			}
-			tempNum=tempNum / 10;
-				
+			num=num / 10;		
 		}
-		
-		System.out.println("Number of even digits in " + num + ": " + evencount);
-		System.out.println("\"Number of odd digits in" + num + " :" + oddcount);
-				
-	        	
-		
-
+		System.out.println("Number of even digits in: " + evencount);
+		System.out.println("Number of odd digits in:" + oddcount);
 	}
 }
 

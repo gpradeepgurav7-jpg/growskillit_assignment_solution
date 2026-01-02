@@ -6,19 +6,12 @@ public class loop_assignment_factorial_while {
 		// TODO Auto-generated method stub
 		int Number=6;
 		int i = 1;
-		long Fctl=1;
-		
-		
+		long fctl=1;		
 		while(i<=Number) {
-			Fctl=Fctl *i;
+			fctl=fctl *i;
 		    i++;
 		}	
-		
-		{
-			System.out.println("Factorial of given number:"+Fctl);	
-			
-			}
-
+			System.out.println(fctl);	
 	}
 
 }
